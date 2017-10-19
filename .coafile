@@ -1,0 +1,13 @@
+[default]
+bears = FilenameBear, coalaBear, InvalidLinkBear
+files = **.yml, **.py, **.md
+ignore = 
+[yaml]
+bears = LineLengthBear, YAMLLintBear
+files = **.yml
+[markdown]
+bears = LineLengthBear, MarkdownBear
+files = **.md
+[python]
+bears = PycodestyleBear
+files = **.py
